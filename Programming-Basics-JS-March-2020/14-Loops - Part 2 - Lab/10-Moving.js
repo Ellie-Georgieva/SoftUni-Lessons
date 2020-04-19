@@ -6,7 +6,7 @@ function moving(arr) {
     let occupiedSpace = 0; 
     let carton = arr.shift();
     
-    while(occupiedSpace <= freeSpace) {
+    while (occupiedSpace <= freeSpace) {
             if (carton == 'Done') {
                 let spaceLeft = freeSpace - occupiedSpace;
                 console.log(`${spaceLeft} Cubic meters left.`)
