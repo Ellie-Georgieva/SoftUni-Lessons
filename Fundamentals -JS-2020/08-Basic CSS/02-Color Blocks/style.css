@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#red {
+    background-color: red;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#orange {
+    background-color: orange;
+}
+
+div {
+    display: inline-block;
+    padding: 20px;
+    border: 3px solid yellow;
+    margin: 20px;
+    color: white;
+}
+
+div:hover {
+    transform: scale(1.4) rotate(20deg);
+}
+
+#purple:hover, .test {
+    background-color: aqua;
+    transform: scale(1.4) rotate(-20deg);
+}
+
+.calculator {
+    transform: none !important;
+    border: 2px solid green
+}
+
+input {
+    padding: 5px 15px;
+    background: green;
+    color:white;
+
+}
+input::placeholder {
+    color: white;
+}
+button {
+    background: green;
+    color: white;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-family: Roboto;
+}
